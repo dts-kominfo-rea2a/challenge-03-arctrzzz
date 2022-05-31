@@ -27,7 +27,7 @@ const listBelanjaan = function(dataBelanja) {
   let jumlahBelanja = dataBelanja.length;
   let listBarang = [];
   for (let nomorUrut = 0; nomorUrut < jumlahBelanja; nomorUrut++) {
-   listBarang.push(dataBelanja[nomorUrut].nama+" x "+dataBelanja[nomorUrut].kuantitas);
+   listBarang.push("- "+dataBelanja[nomorUrut].nama+" x "+dataBelanja[nomorUrut].kuantitas);
  } ;
  return listBarang
 };
